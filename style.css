@@ -61,7 +61,7 @@ body {
 
 .container textarea {
     width: 500px;
-    height: 500px;
+    height: 250px;
     padding: 1rem;
     font-size: 1.5rem;
     border: none;
