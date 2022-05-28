@@ -1,4 +1,3 @@
-
 const textarea = document.getElementById("textarea")
 const generateName = document.getElementById("generateName")
 const randomName = document.getElementById("randomName")
@@ -12,4 +11,3 @@ generateName.addEventListener("click", () => {
     randomName.innerHTML = currentName    
     textarea.value = filteredArr.join("\n")
 })
-
