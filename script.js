@@ -7,9 +7,9 @@ generateName.addEventListener("click", () => {
     const arrOfNames = textarea.value.split("\n")
     const randomNum = Math.floor(Math.random() * arrOfNames.length)
     const currentName = arrOfNames[randomNum]
-    const filtered = arrOfNames.filter(name => name !== currentName)
+    const filteredArr = arrOfNames.filter(name => name !== currentName)
 
     randomName.innerHTML = currentName    
-    textarea.value = filtered.join("\n")
+    textarea.value = filteredArr.join("\n")
 })
 
