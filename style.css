@@ -7,4 +7,57 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+
+.header {
+    background-color: lightblue;
+    width: 750px;
+
+}
+
+.header img {
+    width: 100px;
+}
+
+.container {
+    background-color: rebeccapurple;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+}
+
+.container > * {
+    font-family: inherit;
+}
+
+.container > div {
+    font-size: 2rem;
+    border: 1px solid red;
+    width: 500px;
+    height: 82px;
+    padding: 1rem;
+}
+
+.container textarea {
+    width: 500px;
+    height: 500px;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: lightsalmon;
+    width: 750px;
+
+}
+
